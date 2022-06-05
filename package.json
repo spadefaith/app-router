@@ -1,0 +1,19 @@
+{
+  "name": "app-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "@fastify/http-proxy": "^7.1.0",
+    "fastify": "^3.29.0",
+    "fastify-cors": "^6.1.0",
+    "fastify-http-proxy": "^6.3.0"
+  }
+}
