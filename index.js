@@ -14,7 +14,11 @@ server.register(proxy, {
     upstream: `http://localhost:7999/`,
     prefix: '/apps/thunderclient', // optional
     http2: false, // optional
-
+});
+server.register(proxy, {
+    upstream: `http://localhost:7987/`,
+    prefix: '/apps/stun-gin', // optional
+    http2: false, // optional
 });
 
 
